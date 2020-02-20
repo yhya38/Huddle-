@@ -103,6 +103,9 @@ button {
   width: 100vw;
   margin-bottom: -1px;
 }
+.cc {
+  width: 100vw;
+}
 
 .illustration {
   width: 85%;
@@ -135,7 +138,7 @@ button {
 .your {
   background-color: hsl(207, 100%, 98%);
   text-align: center;
-  height: 70vh;
+  height: 80vh;
 }
 
 .your p {
