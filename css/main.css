@@ -8,15 +8,14 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
- h2 {
-  font-family: 'Open Sans', sans-serif;
+h2 {
+  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
 }
 
 p {
   font-size: 14px;
   font-weight: 600;
-  
 }
 
 button {
@@ -44,7 +43,6 @@ button {
 
 .build {
   text-align: center;
-  /* margin: 100px 30px 20px 30px  ; */
 }
 
 .fans {
@@ -54,12 +52,10 @@ button {
 .re-imagines {
   margin: 10px 20px 40px 20px;
   font-size: 12px;
-  /* font-weight: 600; */
   line-height: 1rem;
 }
 
 .build button {
-  
   width: 50%;
   background-color: hsl(322, 100%, 66%);
   border: none;
@@ -73,19 +69,19 @@ button {
   width: 85%;
   margin-bottom: 80px;
 }
-
-.icon h1 {
+.icon {
   text-align: center;
-  font-size: 3.5rem;
 }
 .icon p {
-  text-align: center;
   margin-bottom: 100px;
+}
+.icon h1 {
+  font-size: 3.5rem;
 }
 
 .icon img {
   width: 30px;
-  margin-left: 102px;
+  margin-left: -110px;
 }
 
 .grow-together {
@@ -99,9 +95,9 @@ button {
 }
 
 .grow-together p {
-    margin-left: 30px;
-    margin-right: 30px;
-    font-size: 14px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 14px;
 }
 .top {
   width: 100vw;
@@ -128,7 +124,6 @@ button {
 
 .flowing-conversation p {
   margin: 20px 30px 40px 30px;
-  /* font-size: 13px; */
 }
 
 .top2 {
@@ -140,11 +135,15 @@ button {
 .your {
   background-color: hsl(207, 100%, 98%);
   text-align: center;
-  height: 50vh;
+  height: 70vh;
 }
 
 .your p {
   margin: 20px 30px 0px 30px;
+}
+.your img {
+  width: 85%;
+  padding-bottom: 100px;
 }
 
 .bottom2 {
@@ -172,11 +171,11 @@ button {
 }
 
 .footer {
-
   width: 100vw;
 }
 
 .news {
+  padding: 20px;
   width: 100%;
   height: 60vh;
   margin-top: -10px;
@@ -185,32 +184,31 @@ button {
 }
 
 .news h2 {
-  padding: 40px 20px 10px 20px;
+  padding: 40px 0px 10px 0px;
 }
 
 .news p {
-  padding: 10px 20px 20px 20px;
+  padding: 10px 0px 20px 0px;
   line-height: 1.5rem;
   font-size: 13px;
   font-weight: bold;
 }
 
 .news input {
-  width: 90%;
+  width: 100%;
   background-color: white;
   border: none;
   height: 2.5rem;
   border-radius: 6px;
-  margin: 5px 15px 10px 15px;
+  margin: 5px 0px 10px 0px;
 }
 
 .news button {
   float: right;
-  width: 45%;
+  width: 50%;
   background-color: hsl(322, 100%, 66%);
   color: white;
   border-radius: 6px;
-  margin-right: 20px;
   border: none;
   font-weight: bold;
   margin-bottom: 80px;
@@ -227,7 +225,6 @@ button {
 .icon-messages {
   width: 30px;
   float: left;
-  /* color: whitesmoke; */
   margin-right: 5px;
   margin-top: 6px;
   margin-bottom: 10px;
@@ -235,8 +232,6 @@ button {
 
 .ipsum {
   line-height: 1.3rem;
-  /* color: whitesmoke; */
-  /* font-weight: bold; */
   margin-bottom: 30px;
   margin-top: 10px;
   margin-right: 20px;
@@ -247,7 +242,6 @@ button {
 .icon-phone {
   float: left;
   padding-right: 20px;
-  /* padding-bottom: 8px; */
 }
 
 .icon-email {
@@ -267,4 +261,169 @@ button {
 
 .media-icons {
   margin-top: 40px;
+  font-size: 2rem;
+}
+
+i {
+  width: 50px;
+}
+
+i:hover {
+  width: 50px;
+  background-color: black;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .huddle {
+    margin: 50px;
+  }
+  .try {
+    width: 10%;
+  }
+
+  .build {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .re-imagines {
+    font-size: 1rem;
+    margin-left: 26rem;
+    margin-right: 26rem;
+  }
+
+  .build button {
+    width: 20%;
+    height: 2.5rem;
+  }
+  .build img {
+    width: 70%;
+    object-fit: contain;
+  }
+  .icon {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* flex-direction: row; */
+  }
+  .top-mobile-one {
+    width: 100vw;
+  }
+
+  .grow-together img {
+    width: 40%;
+  }
+
+  .grow-together {
+    width: 100vw;
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+  }
+  .loyal {
+    padding-right: 250px;
+  }
+  .loyal p {
+    margin-left: 5px;
+  }
+  .flowing-conversation {
+    width: 100vw;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+  }
+
+  .flowing-conversation img {
+    width: 40%;
+  }
+
+  .conversation {
+    margin-left: 200px;
+  }
+  .conversation h2 {
+    margin-left: 30px;
+  }
+
+  .your img {
+    width: 40%;
+  }
+  .your {
+    width: 100vw;
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+  }
+  .your p {
+    margin-right: 200px;
+  }
+  .your h2 {
+    margin-left: 22px;
+  }
+
+  .community button {
+    width: 22%;
+    height: 2.8rem;
+  }
+
+  section {
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .news {
+    width: 50vw;
+  }
+  .news input {
+    width: 50%;
+  }
+  .news button {
+    width: 10%;
+    height: 2.4rem;
+    position: absolute;
+    right: 11.5rem;
+    margin-top: 6px;
+  }
+  .lorem {
+    width: 50%;
+    height: 61.5vh;
+    margin-top: -20px;
+    padding: 70px;
+  }
+  .lorem h1 {
+    font-size: 2rem;
+  }
+
+  .ipsum {
+    text-align: left;
+    width: 48%;
+    font-size: 8px;
+    line-height: 20px;
+  }
+  .news p {
+    width: 40%;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .news h2 {
+    padding-bottom: 0px;
+  }
 }
